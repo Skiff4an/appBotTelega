@@ -1,0 +1,14 @@
+bot:
+  name: CarRentSkiffBot
+  token: 7478124928:AAH1hK0M01Du99nFJHRPWiK0b08Pa24zVwg
+
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog-master.yaml
+

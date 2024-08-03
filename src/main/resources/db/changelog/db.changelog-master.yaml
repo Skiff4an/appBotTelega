@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - preConditions:
+      - onFail: WARN
+      - dbms:
+          type: postgresql
+  - include:
+      file: baseline/tableCreate.xml
+      relativeToChangelogFile: true
